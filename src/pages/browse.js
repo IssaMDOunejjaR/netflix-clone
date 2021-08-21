@@ -1,3 +1,5 @@
+import { HeaderContainer } from "../containers/header";
+
 export default function Browse() {
-	return <h1>Hello from the Browse page</h1>;
+	return <HeaderContainer></HeaderContainer>;
 }

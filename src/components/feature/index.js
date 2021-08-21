@@ -1,4 +1,3 @@
-import { func } from 'prop-types';
 import { Container, Title, Subtitle } from './styles/feature';
 
 export default function Feature({ children, ...restProps }) {
