@@ -61,6 +61,7 @@ export default function SignUp() {
 							placeholder="Password"
 							value={password}
 							onChange={({ target }) => setPassword(target.value)}
+							autoComplete="off"
 						/>
 						<Form.Submit disabled={isInvalid} type="submit">Sign Up</Form.Submit>
 					</Form.Base>
